@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
     <title>Angular Partners | Private Investment & M&A Advisory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
 /* ===========================
    CSS VARIABLES & RESET
@@ -24,8 +25,8 @@
     --color-border: #e0e0e0;
     
     /* Typography */
-    --font-display: 'Cormorant Garamond', serif;
-    --font-body: 'DM Sans', sans-serif;
+    --font-display: 'Fraunces', serif;
+    --font-body: 'IBM Plex Sans', sans-serif;
     
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -61,7 +62,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
@@ -99,8 +100,15 @@ section {
     padding: var(--spacing-xl) 0;
 }
 
+.hero-metrics-line {
+    color: var(--color-accent);
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
 /* ===========================
-   BUTTONS
    =========================== */
 
 .btn-primary,
@@ -214,7 +222,8 @@ section {
 
 .btn-contact {
     background: var(--color-primary);
-    color: white;
+    color: white !important;
+    font-weight: 700;
     padding: 0.625rem 1.5rem;
 }
 
@@ -852,8 +861,8 @@ section {
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Built on Acquisitions.<br>Driven by Operations.</h1>
-                <p class="hero-subtitle">We acquire and operate small businesses with a hands-on approach. Having partnered with hundreds of business owners, we intimately understand the gravity of selling a business. Our covenant is to provide a professional, fast, pain-free process that honors your legacy.</p>
+                <h1>Principled, experienced buyer who shows up after the deal closes.</h1>
+                <p class="hero-subtitle">We acquire and operate small businesses with a hands-on approach. Having spent 15 years learning what makes businesses sellable, we now sit on the other side of the table — as owners and operators. We intimately understand the gravity of selling a business, and our commitment is to provide a professional, fast, and pain-free process that honors your legacy.</p>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">2</span>
@@ -865,9 +874,11 @@ section {
                     </div>
                     <div class="stat">
                         <span class="stat-number">$3B+</span>
+                        
                         <span class="stat-label">Aggregate Deal Value</span>
                     </div>
                 </div>
+                <p class="hero-metrics-line">We've seen every side of the deal. Now we own the business.</p>
                 <div class="hero-cta">
                     <a href="/acquisitions" class="btn-primary">View Acquisitions</a>
                     <a href="/about" class="btn-secondary">About the Principal</a>
@@ -883,7 +894,7 @@ section {
                 <div class="service-card">
                     <div class="service-icon">🏢</div>
                     <h3>Small Business Acquisitions</h3>
-                    <p>We acquire and operate profitable small businesses with strong fundamentals. Our focus is on diesel repair, fleet maintenance, and blue-collar service businesses in South Florida where operational excellence drives value creation. We carefully select acquisition opportunities, prioritizing quality over quantity.</p>
+                    <p>We acquire and operate profitable small businesses with strong fundamentals. Our focus is on diesel repair, fleet maintenance, and blue-collar service businesses in South Florida where operational excellence drives value. We prioritize quality over quantity — and we stay involved long after closing.</p>
                     <a href="/investment-focus" class="service-link">Investment Criteria →</a>
                 </div>
                 <div class="service-card">
@@ -896,6 +907,32 @@ section {
         </div>
     </section>
 
+    <section style="padding: var(--spacing-xl) 0; background: var(--color-bg-alt);">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="section-header" style="margin-bottom: 2rem;">
+                    <span class="section-tag">What We're Looking For</span>
+                    <h2>Current Acquisition Focus</h2>
+                </div>
+                <p style="font-size: 1.125rem; line-height: 1.7; margin-bottom: 2rem;">We are actively seeking businesses in the following sectors, primarily in Florida. If you own or represent one of these businesses, we'd love to have a conversation.</p>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 2.5rem;">
+                    <div style="background: white; padding: 1.25rem 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); font-size: 1.05rem;">🔧 <strong>Commercial fleet maintenance</strong></div>
+                    <div style="background: white; padding: 1.25rem 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); font-size: 1.05rem;">⚙️ <strong>Diesel &amp; hydraulics repair</strong> (light, medium, and heavy duty)</div>
+                    <div style="background: white; padding: 1.25rem 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); font-size: 1.05rem;">🚛 <strong>On-site and mobile repair services</strong></div>
+                    <div style="background: white; padding: 1.25rem 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); font-size: 1.05rem;">🚨 <strong>Equipment emergency services</strong></div>
+                    <div style="background: white; padding: 1.25rem 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); font-size: 1.05rem;">👷 <strong>Staffing solutions</strong></div>
+                    <div style="background: white; padding: 1.25rem 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); font-size: 1.05rem;">🎓 <strong>Educational and vocational training services</strong></div>
+                </div>
+
+                <div style="background: var(--color-primary); color: white; padding: 1.5rem 2rem; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+                    <p style="margin: 0; font-size: 1rem; line-height: 1.5;"><strong>Own or know a business that fits?</strong> We move fast, keep it confidential, and treat every owner with respect.</p>
+                    <a href="/contact" class="btn-primary" style="background: var(--color-accent); border-color: var(--color-accent); color: var(--color-primary); white-space: nowrap;">Get in Touch →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="portfolio-highlight">
         <div class="container">
             <div class="section-header">
@@ -903,13 +940,11 @@ section {
                 <h2>NH Repairs</h2>
             </div>
             <div class="portfolio-content">
-                <div class="portfolio-image">
-                    <div class="image-placeholder">
-                        <span>NH REPAIRS</span>
-                    </div>
+                <div class="portfolio-image" style="display:flex; align-items:center; justify-content:center; background:#fff; border-radius:8px; padding:2rem;">
+                    <img src="https://www.nationwidehaul.com/siteart/nationwidehaullogo.png" alt="Nationwide Haul LLC" style="max-width:260px; width:100%; mix-blend-mode: multiply;">
                 </div>
                 <div class="portfolio-details">
-                    <p class="portfolio-description">Acquired in May 2025, NH Repairs is a commercial truck, trailer, and RV repair operation based in Pompano Beach, FL. The business was carved out from Nationwide Haul, a diversified equipment dealer.</p>
+                    <p class="portfolio-description">Acquired June 2025 as a carve-out from Nationwide Haul LLC — repair operations only.* Based in Pompano Beach, FL, NH Repairs provides commercial truck, trailer, and RV repair services.</p>
                     <div class="portfolio-metrics">
                         <div class="metric">
                             <span class="metric-label">Acquisition</span>
@@ -924,11 +959,13 @@ section {
                             <span class="metric-value">Pompano Beach, FL</span>
                         </div>
                     </div>
-                    <p class="portfolio-focus">Post-acquisition, we've revitalized the business through hands-on leadership, disciplined operations, and strategic repositioning. Our focus is on building a scalable platform for fleet services in South Florida.</p>
+                    <p class="portfolio-focus">The business was cash-flow negative at close. We got it to breakeven within weeks, profitable in 3 months, and meaningfully profitable in 6. Hands-on leadership, disciplined operations, and the right people made the difference.</p>
                     <div class="portfolio-links">
                         <a href="https://www.nhrepairs.com" target="_blank" class="btn-tertiary">Visit NH Repairs →</a>
+                        <a href="https://www.nationwidehaul.com" target="_blank" class="btn-tertiary">Visit Nationwide Haul →</a>
                         <a href="/acquisitions" class="btn-tertiary">See All Acquisitions →</a>
                     </div>
+                    <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--color-text-light);">* Carve-out of the repair and maintenance operation only. Nationwide Haul LLC continues to operate independently.</p>
                 </div>
             </div>
         </div>
@@ -969,28 +1006,6 @@ section {
         </div>
     </section>
 
-    <!-- Advisory pedigree strip -->
-    <section style="padding: 2.5rem 0; background: white; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
-        <div class="container">
-            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2.5rem;">
-                <p style="font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: #aaa; margin: 0; white-space: nowrap;">Prior advisory work included</p>
-                <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0; row-gap: 0.5rem;">
-                    <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #999;">CEMEX</span>
-                    <span style="color: #ddd; padding: 0 0.9rem;">·</span>
-                    <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #999;">COCA-COLA FEMSA</span>
-                    <span style="color: #ddd; padding: 0 0.9rem;">·</span>
-                    <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #999;">ARCA CONTINENTAL</span>
-                    <span style="color: #ddd; padding: 0 0.9rem;">·</span>
-                    <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #999;">TYCO INTERNATIONAL</span>
-                    <span style="color: #ddd; padding: 0 0.9rem;">·</span>
-                    <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #999;">FORTUNE BRANDS</span>
-                    <span style="color: #ddd; padding: 0 0.9rem;">·</span>
-                    <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #999;">NEW YORK LIFE</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
@@ -1009,7 +1024,7 @@ section {
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3>Angular Partners</h3>
-                    <p>Private investment and M&A advisory firm<br>Miami, Florida</p>
+                    <p>Private investment and M&A advisory firm<br>Miami, FL</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
@@ -1025,12 +1040,10 @@ section {
                     </div>
                     <div class="footer-column">
                         <h4>Connect</h4>
-                        <a href="/cdn-cgi/l/email-protection#aac3c4ccc5eacbc4cddfc6cbd8da84c9c5c7"><span class="__cf_email__" data-cfemail="563f38303916373831233a3724267835393b">[email&#160;protected]</span></a>
+                        <a href="/cdn-cgi/l/email-protection#3b5a48525e49495a7b5a555c4e575a494b15585456"><span class="__cf_email__" data-cfemail="4c2d3f25293e3e2d0c2d222b39202d3e3c622f2321">[email&#160;protected]</span></a>
                         <a href="tel:7035202326">(703) 520-2326</a>
-                        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/adan-sierra-7b57b616/" target="_blank">LinkedIn</a>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Angular Partners, LLC. All rights reserved.</p>
-                <p><em>Angular</em> means <em>cornerstone</em> in Spanish (Piedra Angular) — signifying strength, stability, and the foundation upon which some
+            <div class="footer-
