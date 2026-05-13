@@ -8,11 +8,11 @@ const data = cityData["fort-myers"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://floridatruckrepairs.com/areas/fort-myers` },
+  alternates: { canonical: `https://nhrepairs.com/areas/fort-myers` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://floridatruckrepairs.com/areas/fort-myers`,
+    url: `https://nhrepairs.com/areas/fort-myers`,
   },
 };
 

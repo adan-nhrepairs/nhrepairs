@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "Contact Florida Truck Repairs | Fleet Maintenance & Breakdown Coverage",
   description:
     "Contact Florida Truck Repairs for fleet maintenance contracts, breakdown membership inquiries, and commercial truck repair across Florida. Call 24/7 for active breakdowns.",
-  alternates: { canonical: "https://floridatruckrepairs.com/contact" },
+  alternates: { canonical: "https://nhrepairs.com/contact" },
   openGraph: {
     title: "Contact Florida Truck Repairs",
     description:
       "Reach Florida Truck Repairs for fleet coverage, breakdown membership, and commercial truck repair across Florida.",
-    url: "https://floridatruckrepairs.com/contact",
+    url: "https://nhrepairs.com/contact",
   },
 };
 
@@ -20,7 +20,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   name: "Florida Truck Repairs",
   description: "Florida's statewide fleet maintenance and breakdown network.",
-  url: "https://floridatruckrepairs.com",
+  url: "https://nhrepairs.com",
   telephone: "+19540000000",
   address: {
     "@type": "PostalAddress",

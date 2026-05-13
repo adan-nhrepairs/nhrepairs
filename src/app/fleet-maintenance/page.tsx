@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "Fleet Maintenance Contracts | Predictable Maintenance for Florida Fleets",
   description:
     "Scheduled preventive maintenance contracts for Florida fleets of 3–50+ units. DOT inspections, PM scheduling, brake service, oil changes — one contract, one contact, zero surprises.",
-  alternates: { canonical: "https://floridatruckrepairs.com/fleet-maintenance" },
+  alternates: { canonical: "https://nhrepairs.com/fleet-maintenance" },
   openGraph: {
     title: "Fleet Maintenance Contracts | Florida Truck Repairs",
     description:
       "Predictable maintenance. Zero surprises. Florida-wide fleet maintenance contracts for commercial fleets.",
-    url: "https://floridatruckrepairs.com/fleet-maintenance",
+    url: "https://nhrepairs.com/fleet-maintenance",
   },
 };
 

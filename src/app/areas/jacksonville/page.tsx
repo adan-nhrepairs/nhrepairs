@@ -8,11 +8,11 @@ const data = cityData["jacksonville"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://floridatruckrepairs.com/areas/jacksonville` },
+  alternates: { canonical: `https://nhrepairs.com/areas/jacksonville` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://floridatruckrepairs.com/areas/jacksonville`,
+    url: `https://nhrepairs.com/areas/jacksonville`,
   },
 };
 

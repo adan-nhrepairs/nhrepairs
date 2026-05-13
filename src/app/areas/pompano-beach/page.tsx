@@ -8,11 +8,11 @@ const data = cityData["pompano-beach"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://floridatruckrepairs.com/areas/pompano-beach` },
+  alternates: { canonical: `https://nhrepairs.com/areas/pompano-beach` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://floridatruckrepairs.com/areas/pompano-beach`,
+    url: `https://nhrepairs.com/areas/pompano-beach`,
   },
 };
 

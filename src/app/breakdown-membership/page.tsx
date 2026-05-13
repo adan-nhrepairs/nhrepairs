@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "Statewide Breakdown Membership | 24/7 Florida Truck Breakdown Coverage",
   description:
     "One monthly fee. One call. Any breakdown, anywhere in Florida. Our statewide membership dispatches a vetted repair provider to your driver's location 24/7.",
-  alternates: { canonical: "https://floridatruckrepairs.com/breakdown-membership" },
+  alternates: { canonical: "https://nhrepairs.com/breakdown-membership" },
   openGraph: {
     title: "Statewide Breakdown Membership | Florida Truck Repairs",
     description:
       "One call. Any breakdown. Anywhere in Florida. 24/7 dispatch, vetted providers, no per-incident billing surprises.",
-    url: "https://floridatruckrepairs.com/breakdown-membership",
+    url: "https://nhrepairs.com/breakdown-membership",
   },
 };
 

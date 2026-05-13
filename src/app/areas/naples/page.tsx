@@ -8,11 +8,11 @@ const data = cityData["naples"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://floridatruckrepairs.com/areas/naples` },
+  alternates: { canonical: `https://nhrepairs.com/areas/naples` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://floridatruckrepairs.com/areas/naples`,
+    url: `https://nhrepairs.com/areas/naples`,
   },
 };
 

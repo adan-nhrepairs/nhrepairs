@@ -3,8 +3,8 @@ export const PHONE_HREF = "tel:+19540000000";
 export const COMPANY_NAME = "Florida Truck Repairs";
 export const COMPANY_TAGLINE = "Florida's Fleet Maintenance & Breakdown Network";
 export const COMPANY_ADDRESS = "South Florida, FL"; // TODO: Replace with actual address
-export const COMPANY_EMAIL = "info@floridatruckrepairs.com"; // TODO: Replace with actual email
-export const SITE_URL = "https://floridatruckrepairs.com";
+export const COMPANY_EMAIL = "info@nhrepairs.com"; // TODO: Replace with actual email
+export const SITE_URL = "https://nhrepairs.com";
 
 export const FLORIDA_MARKETS = [
   { name: "Miami", slug: "miami" },

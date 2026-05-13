@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Commercial Truck Repair Services | Florida Fleet Services",
   description:
     "DOT inspections, preventive maintenance, diesel engine repair, trailer repair, brake service, electrical, reefer repair, and fleet accounts across Florida.",
-  alternates: { canonical: "https://floridatruckrepairs.com/services" },
+  alternates: { canonical: "https://nhrepairs.com/services" },
   openGraph: {
     title: "Commercial Truck Repair Services | Florida Truck Repairs",
     description:
       "Full-spectrum commercial truck and fleet repair services across Florida. DOT inspections, PM, diesel repair, trailer work, roadside assistance, and more.",
-    url: "https://floridatruckrepairs.com/services",
+    url: "https://nhrepairs.com/services",
   },
 };
 

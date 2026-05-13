@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Service Areas | Florida Truck Repairs Statewide Coverage",
   description:
     "Florida Truck Repairs serves 10+ major Florida markets. Find fleet maintenance contracts and breakdown coverage in Miami, Tampa, Orlando, Jacksonville, and more.",
-  alternates: { canonical: "https://floridatruckrepairs.com/areas" },
+  alternates: { canonical: "https://nhrepairs.com/areas" },
 };
 
 export default function AreasPage() {
