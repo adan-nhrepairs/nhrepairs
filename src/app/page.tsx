@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Florida Truck Repairs | Statewide Fleet Maintenance & Breakdown Network",
   description:
     "Florida's only statewide fleet maintenance and breakdown network. One call, statewide coverage. Fleet contracts, 24/7 breakdown membership, DOT inspections — built by shop owners.",
-  alternates: { canonical: "https://nhrepairs.com" },
+  alternates: { canonical: "https://floridatruckrepairs.com" },
 };
 
 const serviceIcons: Record<string, React.ReactNode> = {
@@ -116,7 +116,7 @@ const structuredData = {
   name: "Florida Truck Repairs",
   description:
     "Florida's statewide fleet maintenance and breakdown network. Fleet contracts, 24/7 breakdown membership, DOT inspections.",
-  url: "https://nhrepairs.com",
+  url: "https://floridatruckrepairs.com",
   telephone: "+19540000000",
   address: {
     "@type": "PostalAddress",

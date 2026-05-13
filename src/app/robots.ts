@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nhrepairs.com/sitemap.xml",
+    sitemap: "https://floridatruckrepairs.com/sitemap.xml",
   };
 }

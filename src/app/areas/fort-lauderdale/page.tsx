@@ -8,11 +8,11 @@ const data = cityData["fort-lauderdale"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://nhrepairs.com/areas/fort-lauderdale` },
+  alternates: { canonical: `https://floridatruckrepairs.com/areas/fort-lauderdale` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://nhrepairs.com/areas/fort-lauderdale`,
+    url: `https://floridatruckrepairs.com/areas/fort-lauderdale`,
   },
 };
 

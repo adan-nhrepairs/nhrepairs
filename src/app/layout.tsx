@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nhrepairs.com",
+    url: "https://floridatruckrepairs.com",
     siteName: "Florida Truck Repairs",
     title: "Florida Truck Repairs | Statewide Fleet Maintenance & Breakdown Network",
     description:
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://nhrepairs.com",
+    canonical: "https://floridatruckrepairs.com",
   },
 };
 

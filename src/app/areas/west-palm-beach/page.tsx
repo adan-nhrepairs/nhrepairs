@@ -8,11 +8,11 @@ const data = cityData["west-palm-beach"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://nhrepairs.com/areas/west-palm-beach` },
+  alternates: { canonical: `https://floridatruckrepairs.com/areas/west-palm-beach` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://nhrepairs.com/areas/west-palm-beach`,
+    url: `https://floridatruckrepairs.com/areas/west-palm-beach`,
   },
 };
 

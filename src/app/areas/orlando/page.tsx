@@ -8,11 +8,11 @@ const data = cityData["orlando"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://nhrepairs.com/areas/orlando` },
+  alternates: { canonical: `https://floridatruckrepairs.com/areas/orlando` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://nhrepairs.com/areas/orlando`,
+    url: `https://floridatruckrepairs.com/areas/orlando`,
   },
 };
 

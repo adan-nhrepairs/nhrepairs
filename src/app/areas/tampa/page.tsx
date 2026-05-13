@@ -8,11 +8,11 @@ const data = cityData["tampa"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://nhrepairs.com/areas/tampa` },
+  alternates: { canonical: `https://floridatruckrepairs.com/areas/tampa` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://nhrepairs.com/areas/tampa`,
+    url: `https://floridatruckrepairs.com/areas/tampa`,
   },
 };
 

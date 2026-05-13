@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { FLORIDA_MARKETS } from "@/lib/constants";
 
-const BASE_URL = "https://nhrepairs.com";
+const BASE_URL = "https://floridatruckrepairs.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

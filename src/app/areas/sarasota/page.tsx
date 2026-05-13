@@ -8,11 +8,11 @@ const data = cityData["sarasota"];
 export const metadata: Metadata = {
   title: data?.metaTitle,
   description: data?.metaDescription,
-  alternates: { canonical: `https://nhrepairs.com/areas/sarasota` },
+  alternates: { canonical: `https://floridatruckrepairs.com/areas/sarasota` },
   openGraph: {
     title: data?.metaTitle,
     description: data?.metaDescription,
-    url: `https://nhrepairs.com/areas/sarasota`,
+    url: `https://floridatruckrepairs.com/areas/sarasota`,
   },
 };
 
